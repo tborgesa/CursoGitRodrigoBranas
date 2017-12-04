@@ -1,2 +1,2 @@
 # CursoGitRodrigoBranas
-CursoGit - Rodrigo Branas
+Curso Git - Rodrigo Branas
