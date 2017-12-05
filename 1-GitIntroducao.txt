@@ -1,0 +1,39 @@
+1-Init
+	1. git init 
+
+2-Add New File a e b
+	1. mkdir WD
+	2. echo a > WD/a.txt
+	3. echo b > WD/b.txt
+	4. git add .
+
+3-Commit New File
+	1. git commit -m "echo Arquivos a e b"
+
+4-Add New File c
+	1. echo c > WD/c.txt
+	2. git add .
+
+5-Commit New File
+	1. git commit -m "Arquivo c"
+
+6-Add Update File c
+	1. echo c2 > WD/c.txt
+	2. git add .
+
+7-Commit Update File
+	1. git commit -m "Alterando c"
+
+8-Add Rename File c to c2
+	1. mv WD/c.txt WD/c2.txt
+	2. git add .
+
+9-Commit Rename File
+	1. git commit -m "Renomeando c -> c2"
+
+10-Add Delete File a
+	1. rm WD/a.txt
+	2. git add .
+
+11-Commit Delete File
+	1. git commit -m "Excluindo arquivo a"

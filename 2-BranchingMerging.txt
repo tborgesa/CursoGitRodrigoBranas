@@ -1,0 +1,72 @@
+1-Create Branch aula2
+	1. git branch aula2
+
+2-Checkout aula2
+	1. git checkout aula2
+
+3-Add New File - d
+	1. echo d > WD/d.txt
+	2. git add .
+
+4-Commit New File
+	1. git commit -m "Adicionando arquivo d"
+
+5-Checkout master
+	1. git checkout master
+	
+6-Merge aula2 to master (fast-forward)
+	1. git merge aula2
+
+7-Criando branch aula2-1 fazendo checkout
+	1. git checkout -b aula2-1
+	
+8-Add New File - e
+	1. echo e > WD/e.txt
+	2. git add .
+	
+9-Commit New File on aula2-1
+	1. git commit -m "Adicionando arquivo e"
+
+10-Checkout master
+	1. git checkout master
+	
+11-Add New File - f
+	1. echo f > WD/f.txt
+	2. git add .
+	
+12-Commit New File on aula2-1
+	1. git commit -m "Adicionando arquivo f"
+	
+13-Merge aula2-1 to master (recursive)
+	1. git merge aula2-1 -m "'aula2-1' -> 'master'"
+	
+14-Criando branch aula2-2 fazendo checkout
+	1. git checkout -b aula2-2
+	
+15-Add New File - g
+	1. echo g2 > WD/g.txt
+	2. git add .
+	
+16-Commit File on aula2-2
+	1. git commit -m "Adicionando arquivo g"
+	
+17-Checkout master
+	1. git checkout master
+
+18-Add New File - g
+	1. echo g > WD/g.txt
+	2. git add .
+	
+19-Commit File on master
+	1. git commit -m "Adicionando arquivo g"
+
+20-Merge aula2-2 to master (with conflict)
+	1. git merge aula2-2
+	
+21-Resolve conflict manual
+
+22-Add Merge to stage area
+	1. git add .
+	
+23-Commit Merge to master
+	1. git commit -m "Merge from aula2-2 to master"

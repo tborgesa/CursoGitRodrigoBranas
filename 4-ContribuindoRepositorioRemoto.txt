@@ -1,0 +1,19 @@
+1-Criando branch aula3 fazendo checkout
+	1. git checkout -b aula3
+
+2-Add New File - h
+	1. echo h > WD/h.txt
+	2. git add .
+
+3-Salvando state atual no stash
+	1. git stash save "h.txt"
+	
+4-Voltando arquivos para stage
+	1. git stash apply stash@{0}
+	
+5-Excluindo stash
+	1. git stash drop stash@{0}
+
+5-Criando branch apartir do stash
+	1. git stash save "h.txt"
+	2. git stash branch aula3-1
