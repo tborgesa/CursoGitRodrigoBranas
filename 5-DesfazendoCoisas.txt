@@ -1,34 +1,36 @@
-1-Add repository remote
-	1. git remote add gitHub https://github.com/tborgesa/GitRB.git
+1-Add e commit New File k
+	1. echo k > WD/k.txt
+	2. git add .
+	3. git commit -m "Inserindo arquivo k"
 
-2-Checkout to master
+2-Git Reset Soft
 	1. git checkout master
 	
-3-Push commits to remote
+3-Commit file k on master
 	1. git push gitHub master
 	
-4-Clone Repository (WD2)
+4-Git Reset Mixed
 	1. git clone -o gitHub https://github.com/tborgesa/GitRB.git gitCurso2
 	
-5-Add e Commit new file h (WD2)
+5-Add and Commit New File k
 	1. echo h > WD/h.txt
 	2. git add .
 	3. git commit -m "Inserindo arquivo h"
 
-6-Push Commit (WD2)
+6-Git Reset Hard
 	1. git push gitHub master
 
-7-Git Pull
+7-Desfazendo reset
 	1. git pull gitHub master
 	
-8-Add, Commit e Push new file i (WD2)
+8-Push to remote
 	1. echo i > WD/i.txt
 	2. git add .
 	3. git commit -m "Inserindo arquivo i"
 	4. git push gitHub master
  
-9-Git Fetch
+9-Git Reset Hard
 	1. git fetch gitHub
 	
-10-Merge from master (fast-forward)
+10-Push Force Reset
 	1. git merge gitHub/master
